@@ -19,9 +19,7 @@ class Solution {
                length++;
         }
            k=k%length;
-           if(k==0){
-            return head;
-           }
+          
         tail.next=head;
         int steps=length-k;
         ListNode newtail=head;
